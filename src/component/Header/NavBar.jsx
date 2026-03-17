@@ -20,13 +20,13 @@ export default function NavBar() {
                     className={`absolute bg-green-500 px-2 text-white font-bold flex flex-col left-5 transform transition-transform duration-500 p-2 rounded-lg ${showMenu ? "translate-y-10 md:hidden" : "-translate-y-40 hidden"
                         }`}
                 >
-                    <li><NavLink to={"/home"}>Home</NavLink></li>
+                    <li><NavLink to={"/"}>Home</NavLink></li>
                     <li><NavLink to={"/listed-book"}>Listed Books</NavLink></li>
                     <li><NavLink to={"/Pages-to-read"}>Pages To Read</NavLink></li>
                 </ul>
 
                 <ul className='gap-5 hidden md:flex'>
-                    <li><NavLink className={navClasses} to={"/home"}>Home</NavLink></li>
+                    <li><NavLink className={navClasses} to={"/"}>Home</NavLink></li>
                     <li><NavLink className={navClasses} to={"/listed-book"}>Listed Books</NavLink></li>
                     <li><NavLink className={navClasses} to={"/Pages-to-read"}>Pages To Read</NavLink></li>
                 </ul>
