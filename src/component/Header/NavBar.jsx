@@ -21,13 +21,13 @@ export default function NavBar() {
                         }`}
                 >
                     <li><NavLink to={"/"}>Home</NavLink></li>
-                    <li><NavLink to={"/listed-book"}>Listed Books</NavLink></li>
+                    <li><NavLink to={"/read-list"}>Listed Books</NavLink></li>
                     <li><NavLink to={"/Pages-to-read"}>Pages To Read</NavLink></li>
                 </ul>
 
                 <ul className='gap-5 hidden md:flex'>
                     <li><NavLink className={navClasses} to={"/"}>Home</NavLink></li>
-                    <li><NavLink className={navClasses} to={"/listed-book"}>Listed Books</NavLink></li>
+                    <li><NavLink className={navClasses} to={"/read-list"}>Listed Books</NavLink></li>
                     <li><NavLink className={navClasses} to={"/Pages-to-read"}>Pages To Read</NavLink></li>
                 </ul>
                 <div className='flex items-center gap-2'>
